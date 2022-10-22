@@ -1,0 +1,587 @@
+.mynav{
+    background-color: white !important;
+}
+
+.navchild{
+    width: 75% !important;
+    display: flex !important;
+    
+    justify-content: space-between !important;
+}
+.logo{
+    font-size: 26px;
+    font-weight: 300;
+    color: #666;
+    margin-top: -5px;
+}
+
+.navigation a{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 15px;
+    
+}
+.dropdown-menu {
+    border: none !important;
+}
+.dropdown-item{
+    margin: 0 !important;
+}
+.grow {
+    flex-grow: 0 !important;
+}
+/* .searchbar {
+    background-color: aqua;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    margin-top: -200px;
+    
+}
+.search:hover .searchbar{
+    animation: searchbaranimation 1s;
+    
+} */
+/* @keyframes searchbaranimation {
+    0%{
+        margin-top: -200;
+    }
+    100%{
+        margin-top: 15px;
+    }
+    
+} */
+/* seabackground */
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.hover{
+    
+    z-index:9 !important;
+    margin-right: -100px;
+}
+.hoverchild{
+    margin-top: -150px;
+    position: absolute;
+    width: 280px; 
+    display: flex;
+    margin-left: -200px;
+    background-color: white;
+    transition: all .2s ease-in-out;
+    padding: 8px;
+    
+}
+
+.inpsearch{
+    
+    width: 70%;
+    height: 50px;
+    
+}
+.inpsearch::placeholder{
+    font-size: 16px !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btsearch{
+    width: 27% !important;
+    font-size: 16px!important;
+    height: 50px !important;
+    margin-top: 0px !important;
+    margin-left: 5px !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.btsearch span{
+    font-size: 16px !important;
+    
+}
+.hover:hover .hoverchild{
+    margin-top: 30px;
+}
+
+.sea-background{
+    width: 100%;
+    height: 102vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+}
+.textarea{
+    width: 95%;
+    text-align: center;
+}
+.header h1{
+    color: white;
+    font-size: 60px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+.minitext span{
+    font-weight: 400px;
+    text-align: center;
+    color: white;
+    
+}
+.buttons{
+    margin-top: 24px;
+    width: auto;
+}
+.b1{
+    width: 200px;
+    height: 54px;
+    background-color: #745cf9;
+    border: 3px solid #745cf9;
+    color: white;
+    margin-top: 10px;
+}
+.b2 {
+    width: 200px;
+    height: 54px;
+    background: none;
+    border: 3px solid white;
+    margin-left: 4px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* seoo */
+.seosection{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.seosectionchild{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.leftside{
+    width: 55%;
+}
+.leftside img{
+    width: 100%;
+}
+.rightside h1{
+    font-weight: 400;
+}
+.rightside p{
+    font-weight: 400;
+    color: grey;
+}
+.rightside{
+    width: 40%;
+}
+
+
+
+/* portfolio */
+
+.gray {
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* sea2 */
+.sea2{
+    margin-top: 50px !important;
+    height: 438px !important;
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg") !important;
+}
+.minitext2{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+/* textarea */
+
+.minitext3{
+    color: gray !important;
+}
+.blackh1{
+    color: black !important;
+    font-size: 24px !important;
+}
+
+.graytext{
+    color: gray !important;
+}
+
+.margin{
+    width: 100% !important;
+    margin-top: 100px;
+}
+.img{
+    margin-top: 100px;
+}
+.imgresp{
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+}
+.g{
+    vertical-align: middle;
+    width: 100%;
+    margin: auto;
+}
+/* lastproject */
+/* 
+.imgs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgs img{
+    width: auto;
+    height: auto;
+}
+.imgdiv{
+
+} */
+
+.lastprojectmother{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.titles span{
+    margin-top: 42px;
+    font-size: 16px;
+    
+    
+}
+.titles h1 {
+    padding-top: 32px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+
+  
+  .rower { 
+    display: flex;
+    margin-top: 32px;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    
+    
+    
+  }
+  
+
+  .container:hover img{
+    
+    transition: 0.5s;
+    opacity: 0.7;
+    
+  }
+  .container span {
+    position: absolute;
+    font-size: 24px;
+    visibility: hidden;
+    margin-top: 50px;
+    transition: 0.1s;
+  }
+  .container{
+    padding: 0 !important;
+    vertical-align: middle;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top , black, rgb(69, 69, 69));
+  }
+  .container:hover span {
+    margin-top: 0px;
+    visibility: visible;
+    
+    
+  }
+  
+
+.backgroundphoto{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+}
+.head{
+    margin-top: 100px;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+/* crsl */
+.c{
+    margin: auto;
+    width: 70% !important;
+}
+.man{
+    margin-top: 30px;
+    width: 100%  !important;
+    height: 420px !important;
+   
+
+}
+.man p{
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 200;
+}
+.man img{
+    width: 100px !important;
+    height: 100px !important;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 70px;
+
+}
+.imgname {
+    display: flex;
+    width: 150px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.names{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+/* ourclients */
+.clientscarousel{
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+    text-align: center;
+}
+.clientscarousel h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+
+
+}
+.client {
+    margin-top: 50px !important;
+    width: 75% !important;
+    margin: auto;
+}
+.client img{
+    width: 60px !important;
+    height: 60px;
+    margin: auto;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.client img:hover{
+    opacity: 1;
+}
+
+/* wordpreszone */
+.wordpreszone{
+    margin-top: 100px;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.textandbutton{ 
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/* footer */
+.foter{
+    margin: 0 !important;
+    background-color: black !important;
+}
+.foterspace{
+    width: 80% !important;
+    
+    justify-content: space-between !important;
+}
+.foter h2 {
+    font-size: 20px;
+    color: white;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+}
+.socialmedia{
+    flex-wrap: nowrap;
+    display: flex;
+}
+.socialmedia a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+@media screen and (max-width: 1000px) {
+    .main {
+        justify-content: flex-start;
+        margin-left: 15px;
+    }
+    .hoverchild{
+        margin: 0;
+        position: relative;
+        visibility: hidden;
+    }
+    .hover:hover .hoverchild{
+        visibility: visible;
+    }
+    
+}
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    /* seo responsives */
+    .seosection{
+        height: auto !important;
+    }
+    .leftside, .rightside{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .seosectionchild{
+        width: 100%;
+        padding-left: 15px;
+        box-sizing: border-box;
+        flex-wrap: wrap !important;
+    }
+    .sea2{
+        margin-top: 0px !important;
+    }
+    .imgresp{
+        width: 100%;
+    }
+    /* minitext */
+    .minitext{
+        width: 100% !important;
+    }
+    /* comment slider */
+    .man p {
+        width: 95%;
+    }
+    .c {
+        width: 100% !important;
+    }
+    /* carousel arrows hide*/
+    .carousel-control-prev, .carousel-control-next{
+        display: none !important;
+    }
+    /* rower padd*/
+    .rower {
+        padding-bottom: 100px;
+        
+    }
+
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .hoverchild{
+        width: 200px;
+        margin-left: -25px;
+    }
+    .inpsearch{
+        width: 70%;
+        height: 40px;
+    }
+    .btsearch{
+        width: 60px !important;
+        height: 40px !important;
+    }
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+
+    }
+    .container{
+        max-width: 100% !important;
+    }
+    .header h1{
+        font-size: 30px;
+    }
+  }
